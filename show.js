@@ -36,21 +36,23 @@ window.addEventListener('scroll',function(){
         domainThird.classList.add('focus');
     }
 
-    if(windowScroll > money.scrollHeight) {
+    if(windowScroll > money.offsetTop - 1200) {
         moneyFist.classList.add('focus');
         moneySed.classList.add('focus');
         moneyThird.classList.add('focus');
         moneyFord.classList.add('focus');
     }
 
-    if(windowScroll > check.scrollHeight) {
+    if(windowScroll > check.offsetTop - 900) {
         checkTop.classList.add('focus');
         checkBottom.classList.add('focus');
     }
 
-    if(windowScroll > save.scrollHeight) {
+    if(windowScroll > save.offsetTop - 900) {
         saveFirst.classList.add('focus');
         saveSed.classList.add('focus');
         saveThird.classList.add('focus');
     }
+
+    console.log(money.offsetTop)
 })

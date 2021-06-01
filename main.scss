@@ -460,21 +460,21 @@ main {
             right: 18%;
             width: 300px;   
             transform: translateY(300px);
-             transition: all 2s ease-in;
+             transition: all 1s ease-in;
         }
         .third {
             position: absolute;
             bottom: -20%;
             right: -50px;
             transform: translate(120px, 80%);
-            transition: all 2.8s ease-in;
+            transition: all 1s ease-in;
         }
         .ford {
             position: absolute;
             bottom: 50%;
             right: 30px;
             transform: translate(120px, 80%);
-            transition: all 2.8s ease-in;
+            transition: all 1s ease-in;
         }
 
         .first.focus {
